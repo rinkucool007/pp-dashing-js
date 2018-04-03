@@ -34,7 +34,7 @@
     "dashboard",
     "web"
   ],
-  "repository": "git://github.com/fabiocaseri/dashing-js",
+  "repository": "git://github.com/rinkucool007/pp-dashing-js",
   "main": "index",
   "bin": {
     "dashing-js": "./bin/dashing-js"
