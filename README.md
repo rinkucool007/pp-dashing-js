@@ -1,11 +1,5 @@
 # dashing-js
 
-Port of [Dashing](http://shopify.github.io/dashing/) to node.js
-
-[![NPM version](https://badge.fury.io/js/dashing-js.png)](http://badge.fury.io/js/dashing-js)
-[![Dependency Status](https://david-dm.org/fabiocaseri/dashing-js.png)](https://david-dm.org/fabiocaseri/dashing-js)
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/fabiocaseri/dashing-js/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
 ## Getting Started
 
 1. Install from npm
@@ -38,12 +32,6 @@ $ dashing-js start
 
 Every new Dashing project comes with sample widgets & sample dashboards for you to explore. The directory is setup as follows:
 
-* Assets — All your images, fonts, and js/coffeescript libraries. Uses <del>[Sprockets](https://github.com/sstephenson/sprockets)</del> [Mincer](http://nodeca.github.io/mincer/).
-* Dashboards — One .jade file for each dashboard that contains the layout for the widgets.
-* Jobs — Your js/coffee jobs for fetching data (e.g for calling third party APIs like twitter). Name them *\*.job.js/\*.job.coffee*
-* Lib — Optional js/coffee files to help out your jobs.
-* Public — Static files that you want to serve. A good place for a favicon or a custom 404 page.
-* Widgets — All the html/css/coffee for individual widgets.
 
 Run `dashing-js` from command line to find out what command line tools are available to you.
 
